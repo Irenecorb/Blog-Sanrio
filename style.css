@@ -37,7 +37,6 @@ nav ul li {
 nav ul li a {
     display: block;
     padding: 10px;
-    color: rgb(62,69,78);
     background-color: rgba(252,222,240);
     text-decoration: none;
 }
@@ -53,9 +52,12 @@ nav ul li a:hover {
     flex-direction: column;
 }
 
-.imagen{
-    width: 900;
+.contenedor img{
+
     margin: auto;
+    box-sizing: border-box;
+    height: 260px;
+    width: 330px;
 }
 
 .datos li{
