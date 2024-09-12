@@ -1,0 +1,63 @@
+*{
+    background-color: rgb(252,232,210);
+    font-family: Arial, sans-serif;
+    color:  rgb(62,69,78);
+    text-align: center;
+}
+
+.contenedor{
+    width:80%;
+    margin:auto;
+    background-color: rgb(255, 255, 255),
+}
+
+header {
+    width: 100%;
+    position: static;
+    z-index: auto;
+}
+  
+nav {
+    float: left;
+    background-color: rgba(188,217,234);
+
+}
+  
+nav ul {
+    list-style: none;
+    overflow: hidden; 
+}
+  
+nav ul li {
+    float: left;
+    font-size: 15px;
+    
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    color: rgb(62,69,78);
+    background-color: rgba(252,222,240);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: rgb(238, 203, 255);
+}
+
+.seccionUno{
+    border: 10px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagen{
+    width: 900;
+    margin: auto;
+}
+
+.datos li{
+    text-align: left;
+}
