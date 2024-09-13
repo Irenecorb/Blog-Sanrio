@@ -26,6 +26,7 @@ nav {
 nav ul {
     list-style: none;
     overflow: hidden; 
+    padding: 0px;
 }
   
 nav ul li {
